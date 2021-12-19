@@ -11,11 +11,11 @@ a) It will search for the k6 image in your local machine, if image not found in 
 b) Will execute the script.js with 1 max VUs, 10m30s max duration
 
 Here is the output:
-
+![Alt text](https://github.com/ishnetcode/K6LoadTetsDotnet/blob/main/FirstTestWithDocker/img/SampleImage1.jpg)
 
 3) You can add more VUs and custom duration via following command:
 docker run -i loadimpact/k6 run --vus 10 --duration 30s - <script.js
 
 Here is the output:
-
+![Alt text](https://github.com/ishnetcode/K6LoadTetsDotnet/blob/main/FirstTestWithDocker/img/SampleImage2.jpg)
 
